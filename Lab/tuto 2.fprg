@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tuto 2"/>
+        <attribute name="authors" value="junior"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-14 09:33:05 PM"/>
+        <attribute name="created" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjMyOjQ1IFBNOzMwNDA="/>
+        <attribute name="edited" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjMzOjA1IFBNOzE7MzE0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#1052;&#1080;&#1085;&#1080;&#1081; &#1072;&#1085;&#1093;&#1085;&#1099; &#1072;&#1083;&#1075;&#1086;&#1088;&#1080;&#1090;&#1084;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

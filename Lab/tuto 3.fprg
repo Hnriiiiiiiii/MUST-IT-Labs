@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tuto 2"/>
+        <attribute name="authors" value="junior"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-14 09:32:15 PM"/>
+        <attribute name="created" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjI3OjQyIFBNOzMwNDE="/>
+        <attribute name="edited" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjMyOjE1IFBNOzM7MzE0Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="major" type="String" array="False" size=""/>
+            <output expression="&quot;&#1058;&#1072; &#1257;&#1257;&#1088;&#1080;&#1081;&#1085; &#1085;&#1101;&#1088;&#1101;&#1101; &#1086;&#1088;&#1091;&#1091;&#1083;&#1085;&#1072; &#1091;&#1091;&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;&#1058;&#1072; &#1089;&#1091;&#1088;&#1072;&#1083;&#1094;&#1072;&#1078; &#1073;&#1091;&#1081; &#1084;&#1101;&#1088;&#1075;&#1101;&#1078;&#1083;&#1101;&#1101; &#1086;&#1088;&#1091;&#1091;&#1083;&#1085;&#1072; &#1091;&#1091;&quot;" newline="True"/>
+            <input variable="major"/>
+            <output expression="name &amp; &quot; &#1090;&#1072;&#1085;&#1100;&#1076; &#1064;&#1059;&#1058;&#1048;&#1057;-&#1080;&#1081;&#1085; &#1052;&#1061;&#1058;&#1057;-&#1080;&#1081;&#1085; &quot; &amp; major &amp; &quot; &#1084;&#1101;&#1088;&#1075;&#1101;&#1078;&#1083;&#1101;&#1101;&#1088; &#1089;&#1091;&#1088;&#1072;&#1083;&#1094;&#1072;&#1093; &#1086;&#1102;&#1091;&#1090;&#1072;&#1085; &#1073;&#1086;&#1083;&#1089;&#1086;&#1085;&#1076; &#1073;&#1072;&#1103;&#1088; &#1093;&#1199;&#1088;&#1075;&#1101;&#1077;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
