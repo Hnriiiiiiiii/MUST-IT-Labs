@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowgorithm"/>
+        <attribute name="authors" value="junior"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-14 10:14:43 PM"/>
+        <attribute name="created" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjU2OjIxIFBNOzMwNDA="/>
+        <attribute name="edited" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzEwOjE0OjQzIFBNOzE7MzEzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="t" type="Integer" array="False" size=""/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;&#1041;&#1086;&#1083;&#1076;&#1099;&#1085; &#1073;&#1086;&#1076;&#1089;&#1086;&#1085; &#1073;&#1086;&#1076;&#1083;&#1086;&#1075;&#1099;&#1085; &#1090;&#1086;&#1086;=&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;&#1058;&#1091;&#1103;&#1072;&#1075;&#1080;&#1081;&#1085; &#1073;&#1086;&#1076;&#1089;&#1086;&#1085; &#1073;&#1086;&#1076;&#1083;&#1086;&#1075;&#1099;&#1085; &#1090;&#1086;&#1086;=&quot;" newline="True"/>
+            <input variable="t"/>
+            <output expression="&quot;&#1069;&#1085;&#1093;&#1080;&#1081;&#1085; &#1073;&#1086;&#1076;&#1089;&#1086;&#1085; &#1073;&#1086;&#1076;&#1083;&#1086;&#1075;&#1099;&#1085; &#1090;&#1086;&#1086;=&quot;" newline="True"/>
+            <input variable="e"/>
+            <if expression="b &gt; t">
+                <then>
+                    <if expression="b &gt; e">
+                        <then>
+                            <assign variable="max" expression="b"/>
+                            <assign variable="name" expression="&quot;Bold&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="max" expression="e"/>
+                            <assign variable="name" expression="&quot;Enkh&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="t &gt; e">
+                        <then>
+                            <assign variable="max" expression="t"/>
+                            <assign variable="name" expression="&quot;Tuya&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="max" expression="e"/>
+                            <assign variable="name" expression="&quot;Enkh&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

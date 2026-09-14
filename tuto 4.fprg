@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tuto 4"/>
+        <attribute name="authors" value="junior"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-14 09:39:13 PM"/>
+        <attribute name="created" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjMzOjMzIFBNOzMwMzg="/>
+        <attribute name="edited" value="anVuaW9yO0RFU0tUT1AtSEZFTEdGSzsyMDI2LTA5LTE0OzA5OjM5OjEzIFBNOzE7MzE1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="M" type="Real" array="False" size=""/>
+            <output expression="&quot;x &#1091;&#1090;&#1075;&#1099;&#1075; &#1086;&#1088;&#1091;&#1091;&#1083;&#1085;&#1072; &#1091;&#1091;&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="M" expression="x/100"/>
+            <output expression="&quot;M = &quot; &amp; M" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
